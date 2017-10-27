@@ -1,7 +1,17 @@
 import React from 'react';
 
 const AstronomyCard = (props) => {
-  const { title, url, hdurl, explanation, date, copyright } = props.data
+  
+	const { title,
+    url,
+    hdurl,
+    explanation,
+    date,
+    copyright,
+    media_type
+   } = props.data
+   
+   
   return (
     <div>
       <h6>{title}</h6>
